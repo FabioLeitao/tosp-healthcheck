@@ -8,13 +8,13 @@ function ajuda_(){
 
 function flush_pool_(){
 echo FLUSH IDLE
-/home/sc-tos-app/appServer_TOSP/bin/jboss-cli.sh --connect --controller=${IP}:9990 --commands="/subsystem=datasources/data-source=tosdev/:flush-idle-connection-in-pool" -u=adminTosp -p=Tosp@2021
+/home/sc-tos-app/appServer_TOSP/bin/jboss-cli.sh --connect --controller=${IP}:9990 --commands="/subsystem=datasources/data-source=tosdev/:flush-idle-connection-in-pool" -u=adminTosp -p=T****1
 echo FLUSH INVALID
-/home/sc-tos-app/appServer_TOSP/bin/jboss-cli.sh --connect --controller=${IP}:9990 --commands="/subsystem=datasources/data-source=tosdev/:flush-invalid-connection-in-pool" -u=adminTosp -p=Tosp@2021
+/home/sc-tos-app/appServer_TOSP/bin/jboss-cli.sh --connect --controller=${IP}:9990 --commands="/subsystem=datasources/data-source=tosdev/:flush-invalid-connection-in-pool" -u=adminTosp -p=T****1
 echo FLUSH GRACEFULLY
-/home/sc-tos-app/appServer_TOSP/bin/jboss-cli.sh --connect --controller=${IP}:9990 --commands="/subsystem=datasources/data-source=tosdev/:flush-gracefully-connection-in-pool" -u=adminTosp -p=Tosp@2021
+/home/sc-tos-app/appServer_TOSP/bin/jboss-cli.sh --connect --controller=${IP}:9990 --commands="/subsystem=datasources/data-source=tosdev/:flush-gracefully-connection-in-pool" -u=adminTosp -p=T****1
 echo FLUSH ALL
-/home/sc-tos-app/appServer_TOSP/bin/jboss-cli.sh --connect --controller=${IP}:9990 --commands="/subsystem=datasources/data-source=tosdev/:flush-all-connection-in-pool" -u=adminTosp -p=Tosp@2021
+/home/sc-tos-app/appServer_TOSP/bin/jboss-cli.sh --connect --controller=${IP}:9990 --commands="/subsystem=datasources/data-source=tosdev/:flush-all-connection-in-pool" -u=adminTosp -p=T****1
 }
 
 function arruma_param_(){

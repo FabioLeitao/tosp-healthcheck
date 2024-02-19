@@ -63,7 +63,7 @@ fi
 }
 
 function conta_pool_(){
-DISPONIVEL=`/home/sc-tos-app/appServer_TOSP/bin/jboss-cli.sh --connect --controller=${IP}:9990 --commands="/subsystem=datasources/data-source=tosp/statistics=pool:read-resource(include-runtime=true)" -u=adminTosp -p=Tosp@2021 | grep -i available | awk -F" " {'printf $3'} | awk -F"," {'printf $1'} `
+DISPONIVEL=`/home/sc-tos-app/appServer_TOSP/bin/jboss-cli.sh --connect --controller=${IP}:9990 --commands="/subsystem=datasources/data-source=tosp/statistics=pool:read-resource(include-runtime=true)" -u=adminTosp -p=T****1 | grep -i available | awk -F" " {'printf $3'} | awk -F"," {'printf $1'} `
 ULTIMA=$?
 TIMESTAMP=`date +"%Y-%m-%d %T"`
 if [ ${ULTIMA} -ne 0 ] ; then
@@ -82,7 +82,7 @@ fi
 }
 
 function valida_jboss_(){
-DISPONIVEL=`/home/sc-tos-app/appServer_TOSP/bin/jboss-cli.sh --connect --controller=${IP}:9990 --commands="read-attribute server-state" -u=adminTosp -p=Tosp@2021`
+DISPONIVEL=`/home/sc-tos-app/appServer_TOSP/bin/jboss-cli.sh --connect --controller=${IP}:9990 --commands="read-attribute server-state" -u=adminTosp -p=T****1`
 ULTIMA=$?
 TIMESTAMP=`date +"%Y-%m-%d %T"`
 if [ ${ULTIMA} -ne 0 ] ; then
