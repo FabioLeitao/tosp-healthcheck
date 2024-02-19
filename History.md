@@ -1,5 +1,10 @@
 
-n.n.n / 2024-02-18
+1.0.1 / 2024-02-18
+==================
+
+  * Anonimização de alguns servidores
+
+1.0.0 / 2024-02-18
 ==================
 
   * Versao com revisão de segurança e lista de autores
