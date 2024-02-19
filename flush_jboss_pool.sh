@@ -20,32 +20,32 @@ echo FLUSH ALL
 function arruma_param_(){
     case "${ARGUMENTO}" in
               002)
-                         IP=10.129.48.70;
+                         IP=1**.1**.**8.70;
 			 echo "Server Server: AZR-TOS-PRD-002"
     			 flush_pool_;
                          ;;
               003)
-                         IP=10.129.48.71;
+                         IP=1**.1**.**8.71;
 			 echo "Server Server: AZR-TOS-PRD-003"
     			 flush_pool_;
                          ;;
               004)
-                         IP=10.129.48.69;
+                         IP=1**.1**.**8.69;
 			 echo "Server Server: AZR-TOS-PRD-004"
     			 flush_pool_;
                          ;;
               005)
-                         IP=10.129.48.72;
+                         IP=1**.1**.**8.72;
 			 echo "Server Server: AZR-TOS-PRD-005"
     			 flush_pool_;
                          ;;
               dev|DEV)
-                         IP=10.129.44.68;
+                         IP=1**.1**.**4.68;
 			 echo "Server Server: AZR-TOS-DEV"
     			 flush_pool_;
                          ;;
 	      qa|QA)
-                         IP=10.129.44.196;
+                         IP=1**.1**.**4.196;
 			 echo "Server Server: AZR-TOS-QA"
     			 flush_pool_;
                          ;;

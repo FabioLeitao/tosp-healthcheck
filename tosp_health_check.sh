@@ -124,7 +124,7 @@ function conta_memoria_(){
 function arruma_param_(){
     case "${ARGUMENTO}" in
               002)
-                         IP=10.129.48.70;
+                         IP=1**.1**.**8.70;
 			 echo "Server Server: AZR-TOS-PRD-002"
 			 conta_memoria_;
 			 valida_jboss_;
@@ -134,7 +134,7 @@ function arruma_param_(){
 			 #confere_sgad_;
                          ;;
               003)
-                         IP=10.129.48.71;
+                         IP=1**.1**.**8.71;
 			 echo "Server Server: AZR-TOS-PRD-003"
 			 conta_memoria_;
 			 valida_jboss_;
@@ -143,7 +143,7 @@ function arruma_param_(){
 			 chama_url_;
                          ;;
               004)
-                         IP=10.129.48.69;
+                         IP=1**.1**.**8.69;
 			 echo "Server Server: AZR-TOS-PRD-004"
 			 conta_memoria_;
 			 valida_jboss_;
@@ -152,7 +152,7 @@ function arruma_param_(){
 			 chama_url_;
                          ;;
               005)
-                         IP=10.129.48.72;
+                         IP=1**.1**.**8.72;
 			 echo "Server Server: AZR-TOS-PRD-005"
 			 conta_memoria_;
 			 valida_jboss_;
@@ -161,7 +161,7 @@ function arruma_param_(){
 			 chama_url_;
                          ;;
               dev|DEV)
-                         IP=10.129.44.68;
+                         IP=1**.1**.**4.68;
 			 echo "Server Server: AZR-TOS-DEV"
 			 conta_memoria_;
 			 valida_jboss_;
@@ -170,7 +170,7 @@ function arruma_param_(){
 			 chama_url_;
                          ;;
               qa|QA)
-                         IP=10.129.44.196;
+                         IP=1**.1**.**4.196;
 			 echo "Server Server: AZR-TOS-QA"
 			 conta_memoria_;
 			 valida_jboss_;
