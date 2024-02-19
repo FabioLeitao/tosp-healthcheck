@@ -15,7 +15,7 @@ function reload_jboss(){
 }
 
 function confere_sgad_(){
-CONTEUDO=`/usr/local/bin/rust-healthcheck-and-reconnect-sgad Athenas2018 | grep -i "681 SGAD_ATIVO TRUE"`
+CONTEUDO=`/usr/local/bin/rust-healthcheck-and-reconnect-sgad A****8 | grep -i "681 SGAD_ATIVO TRUE"`
 ULTIMA=$?
 TIMESTAMP=`date +"%Y-%m-%d %T"`
 if [ ${ULTIMA} -ne 0 ] ; then
