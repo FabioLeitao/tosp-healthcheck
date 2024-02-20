@@ -11,4 +11,5 @@ There are several files it assumes you need to change to the correct password
 ## Sudoers file
 
 Cmnd_Alias SCHEDULERATHENAS = /usr/local/bin/status_scheduler.sh, /usr/local/bin/start_scheduler.sh, /usr/local/bin/stop_scheduler.sh, /usr/sbin/lsof, /usr/bin/journalctl
+
 <usuario> ALL = NOPASSWD: SCHEDULERATHENAS
