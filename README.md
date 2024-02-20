@@ -6,3 +6,5 @@ Deve ser utilizado sempre com o mesmo suário local que estiver executando o JVM
 Recomendado execução em crontab, passando como parametro a VM:
 
 */10    *       *       *       *       nice -n 13 ionice -c2 -n7 /home/sc-tos-app/appServer_TOSP/tosp_health_check.sh 002
+
+Alternativamente, é possível rodar apenas o reload_scheduler.sh, sem senha, se configurado corretamente chave publica e sudoer
