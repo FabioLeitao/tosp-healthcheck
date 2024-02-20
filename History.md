@@ -1,4 +1,11 @@
 
+1.0.2 / 2024-02-20
+==================
+
+  * Para permitir reload sem senha pelo usuario que roda a JVM, confiando noutor login sudoer via ssh
+  * Update README.md
+  * Update README.md
+
 1.0.1 / 2024-02-18
 ==================
 
